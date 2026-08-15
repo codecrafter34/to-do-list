@@ -2,17 +2,22 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-  <link rel="shortcut icon" href="./src/components/task_24dp_000000_FILL0_wght400_GRAD0_opsz24.svg" type="image/x-icon">
+    <link rel="shortcut icon" href="./src/components/task_24dp_000000_FILL0_wght400_GRAD0_opsz24.svg" type="image/x-icon">
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Todo-List</title>
+    <meta name="description" content="iTask - Your personal task manager. Stay focused, stay productive, and crush your goals every day." />
+    <title>iTask — Get Things Done</title>
     <style>
-      .bg{
-        background-color: darkgray;
-        }
-   
+      html, body {
+        margin: 0;
+        padding: 0;
+        background-color: #0f0f1a;
+        min-height: 100vh;
+      }
+      /* Prevent FOUC */
+      #root { min-height: 100vh; }
     </style>
   </head>
-  <body class="bg">
+  <body>
     <div id="root"></div>
     <script type="module" src="/src/main.jsx"></script>
   </body>
